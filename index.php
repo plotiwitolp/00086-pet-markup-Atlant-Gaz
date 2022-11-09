@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+  <!-- header -->
   <div class="section">
     <div class="section-wrapper">
       <header>
@@ -107,6 +109,7 @@
     </div>
   </div>
 
+  <!-- Стоимость газа в ваш газгольдер сегодня -->
   <div class="section">
     <div class="section-wrapper">
       <h2>Стоимость газа в ваш газгольдер сегодня</h2>
@@ -141,27 +144,36 @@
       </div>
     </div>
   </div>
+
+  <!-- Преимущества работы с нашей компанией -->
   <div class="section">
     <div class="section-wrapper">
       <h2>Преимущества работы с нашей компанией</h2>
     </div>
   </div>
+
+  <!-- Выберите свой объём Газовоза -->
   <div class="section">
     <div class="section-wrapper">
       <h2>Выберите свой объём Газовоза</h2>
     </div>
   </div>
+
+  <!-- Отзывы наших клиентов -->
   <div class="section">
     <div class="section-wrapper">
       <h2>Отзывы наших клиентов</h2>
     </div>
   </div>
+
+  <!-- Ответы на часто задаваемые вопросы -->
   <div class="section">
     <div class="section-wrapper">
       <h2>Ответы на часто задаваемые вопросы</h2>
     </div>
   </div>
 
+  <!-- footer -->
   <div class="section">
     <div class="section-wrapper">
       <footer>
@@ -215,6 +227,7 @@
       </footer>
     </div>
   </div>
+
   <script src="./script.js"></script>
 </body>
 
