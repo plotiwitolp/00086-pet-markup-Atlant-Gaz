@@ -142,6 +142,7 @@
           <div class="cost-today-side__btn">Заказать</div>
         </div>
       </div>
+      <img class="down-arrow" src="./images/down_arrow.png">
     </div>
   </div>
 
@@ -149,6 +150,73 @@
   <div class="section">
     <div class="section-wrapper">
       <h2>Преимущества работы с нашей компанией</h2>
+      <div class="advantages">
+        <div class="advantages__colum">
+          <div class="advantage-item">
+            <img src="./images/advantages/tank.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Экономия на хранилище </span>
+            <span class="advantage-item__desc">за счёт собственных цистерн на нашей базе</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/baloon.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Любые объёмы поставки качественного газа</span>
+            <span class="advantage-item__desc">вы получаете объем от 1 тонны до 20 тонн, с сертификатом качества газа</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/ribbon.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Длина заправочных рукавов — 50 метров</span>
+            <span class="advantage-item__desc">не требуется подъезд автомобиля вплотную к резервуару</span>
+          </div>
+        </div>
+        <div class="advantages__colum">
+          <div class="advantage-item">
+            <img src="./images/advantages/track.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Экономия на транспорте</span>
+            <span class="advantage-item__desc">более 10 собственный газовозов</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/cards.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Оплата удобным для вас способом</span>
+            <span class="advantage-item__desc">все газовозы оснащены терминалами для оплаты вашего заказа</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/timer.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Доставка сжиженного газа в формате 24/7</span>
+            <span class="advantage-item__desc">привезем газ в удобное для вас время или же по графику</span>
+          </div>
+        </div>
+        <div class="advantages__colum">
+          <div class="advantage-item">
+            <img src="./images/advantages/calc.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Поставки напрямую от производителей</span>
+            <span class="advantage-item__desc">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/drop.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Чистый газ без примесей</span>
+            <span class="advantage-item__desc">нет наценки на стоимость газа как у перекупщиков и небольших частных компаний</span>
+          </div>
+          <div class="advantage-item">
+            <img src="./images/advantages/sertif.png" class="advantage-item__pic">
+            <span class="advantage-item__title">Аттестованный персонал</span>
+            <span class="advantage-item__desc">квалифицированные сотрудники проведут полную консультацию и дадут рекомендации, если такие нужны будут</span>
+          </div>
+        </div>
+      </div>
+      <div class="warranty">
+        <div class="warranty-left">
+          <img src="./images/transp 1.png" class="warranty-left__pic">
+        </div>
+        <div class="warranty-right">
+          <div class="warranty-right-wrapper">
+            <span class="warranty-right__h2">Благодаря нашему собственному автопарку мы можем давать гарантию, что доставим</span>
+            <span class="warranty-right__h2">за 4 часа</span>
+          </div>
+          <div class="warranty-right-wrapper">
+            <span class="warranty-right__desc">Это сильное конкурентное преимущество, которым мы дорожим</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -156,6 +224,18 @@
   <div class="section">
     <div class="section-wrapper">
       <h2>Выберите свой объём Газовоза</h2>
+      <div class="volumes">
+        <span class="volumes__btn volume__btn_active">Малый 2000 л.</span>
+        <span class="volumes__btn ">Малый 2000 л.</span>
+        <span class="volumes__btn ">Малый 2000 л.</span>
+        <span class="volumes__btn ">Малый 2000 л.</span>
+      </div>
+      <div class="volume-banner">
+        <img src="./images/track2.png" class="volume-banner__pic">
+      </div>
+      <div class="volume-order">
+        <img src="./images/Screenshot_1.png">
+      </div>
     </div>
   </div>
 
@@ -163,6 +243,26 @@
   <div class="section">
     <div class="section-wrapper">
       <h2>Отзывы наших клиентов</h2>
+      <div class="feedback-slider">
+        <div class="feedback-slider__deck">
+          <div class="feedback-slider__cart"></div>
+          <div class="feedback-slider__cart"></div>
+          <div class="feedback-slider__cart"></div>
+        </div>
+        <div class="feedback-slider__remote">
+          <div class="feedback-slider__arrows">
+            <img src="./images/down_arrow.png" class="feedback-slider__prev">
+            <img src="./images/down_arrow.png" class="feedback-slider__next">
+          </div>
+          <div class="feedback-slider__dots">
+            <input type="radio" name="feedback-slider__dot feedback-slider__dot_active">
+            <input type="radio" name="feedback-slider__dot">
+            <input type="radio" name="feedback-slider__dot">
+            <input type="radio" name="feedback-slider__dot">
+            <input type="radio" name="feedback-slider__dot">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -170,6 +270,13 @@
   <div class="section">
     <div class="section-wrapper">
       <h2>Ответы на часто задаваемые вопросы</h2>
+      <div class="questions-accordion">
+        <div class="questions-accordion__item">
+          <label for="questions-accordion__check-1">Есть ли у вас инженеры в компании?</label>
+          <input id="questions-accordion__check-1" type="checkbox">
+          <p></p>
+        </div>
+      </div>
     </div>
   </div>
 
