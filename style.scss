@@ -163,16 +163,12 @@ h1 {
   right: -107px;
   top: 0;
 }
-.btn-order-delivery {
-}
 .btn-order-delivery-desc {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height */
-
   color: #f1f1f1;
   margin-top: 12px;
   padding-left: 15px;
@@ -211,7 +207,6 @@ h2 {
   font-weight: 400;
   font-size: 36px;
   line-height: 43px;
-
   color: #f1f1f1;
 }
 .cost-today-side__desc {
@@ -220,8 +215,6 @@ h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height */
-
   color: #2194ff;
 }
 .cost-today-side__body {
@@ -247,7 +240,6 @@ h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 40px;
-  /* identical to box height */
   text-align: center;
   color: #f1f1f1;
   background-color: #2194ff;
@@ -266,7 +258,6 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height */
   text-align: center;
   color: #f1f1f1;
 
@@ -292,7 +283,6 @@ h2 {
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      /* identical to box height */
       color: rgba(241, 241, 241, 0.7);
     }
   }
@@ -322,8 +312,6 @@ h2 {
   align-items: center;
   margin: 25px 0;
 }
-.advantage-item__pic {
-}
 .advantage-item__title {
   font-family: 'Russo One';
   font-style: normal;
@@ -348,10 +336,6 @@ h2 {
 }
 .warranty {
   display: flex;
-}
-.warranty-left {
-}
-.warranty-left__pic {
 }
 .warranty-right {
   display: flex;
