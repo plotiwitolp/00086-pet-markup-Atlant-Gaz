@@ -247,10 +247,10 @@
     <div class="section-wrapper">
       <h2>Выберите свой объём Газовоза</h2>
       <div class="volumes">
-        <span class="volumes__btn volume__btn_active">Малый 2000 л.</span>
-        <span class="volumes__btn ">Малый 2000 л.</span>
-        <span class="volumes__btn ">Малый 2000 л.</span>
-        <span class="volumes__btn ">Малый 2000 л.</span>
+        <span class="volumes__btn volume__btn_active">Малый <br> 2000 л.</span>
+        <span class="volumes__btn ">Малый <br> 2000 л.</span>
+        <span class="volumes__btn ">Малый <br> 2000 л.</span>
+        <span class="volumes__btn ">Малый <br> 2000 л.</span>
       </div>
       <div class="volume-banner">
         <img src="./images/track2.png" class="volume-banner__pic">
@@ -267,9 +267,15 @@
       <h2>Отзывы наших клиентов</h2>
       <div class="feedback-slider">
         <div class="feedback-slider__deck">
-          <div class="feedback-slider__cart"></div>
-          <div class="feedback-slider__cart"></div>
-          <div class="feedback-slider__cart"></div>
+          <div class="feedback-slider__cart">
+            <img src="./images/feedback.png">
+          </div>
+          <div class="feedback-slider__cart">
+            <img src="./images/feedback.png">
+          </div>
+          <div class="feedback-slider__cart">
+            <img src="./images/feedback.png">
+          </div>
         </div>
         <div class="feedback-slider__remote">
           <div class="feedback-slider__arrows">
@@ -277,11 +283,11 @@
             <img src="./images/down_arrow.png" class="feedback-slider__next">
           </div>
           <div class="feedback-slider__dots">
-            <input type="radio" name="feedback-slider__dot feedback-slider__dot_active">
-            <input type="radio" name="feedback-slider__dot">
-            <input type="radio" name="feedback-slider__dot">
-            <input type="radio" name="feedback-slider__dot">
-            <input type="radio" name="feedback-slider__dot">
+            <span class="feedback-slider__dot feedback-slider__dot_active"></span>
+            <span class="feedback-slider__dot"></span>
+            <span class="feedback-slider__dot"></span>
+            <span class="feedback-slider__dot"></span>
+            <span class="feedback-slider__dot"></span>
           </div>
         </div>
       </div>
@@ -295,32 +301,32 @@
       <div class="questions-accordion">
 
         <div class="questions-accordion__item">
-          <label for="questions-accordion__check-1">Есть ли у вас инженеры в компании?</label>
           <input id="questions-accordion__check-1" type="checkbox" checked="checked">
+          <label for="questions-accordion__check-1">Есть ли у вас инженеры в компании?</label>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum temporibus facere voluptatem eos ex natus, nostrum quae eaque delectus aperiam nesciunt quibusdam necessitatibus id odio provident obcaecati labore at.</p>
         </div>
 
         <div class="questions-accordion__item">
-          <label for="questions-accordion__check-2">Делаете ли вы отчистку газгольдера?</label>
           <input id="questions-accordion__check-2" type="checkbox">
+          <label for="questions-accordion__check-2">Делаете ли вы отчистку газгольдера?</label>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum temporibus facere voluptatem eos ex natus, nostrum quae eaque delectus aperiam nesciunt quibusdam necessitatibus id odio provident obcaecati labore at.</p>
         </div>
 
         <div class="questions-accordion__item">
-          <label for="questions-accordion__check-3">А вы не испортите газон у меня и соседей?</label>
           <input id="questions-accordion__check-3" type="checkbox">
+          <label for="questions-accordion__check-3">А вы не испортите газон у меня и соседей?</label>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum temporibus facere voluptatem eos ex natus, nostrum quae eaque delectus aperiam nesciunt quibusdam necessitatibus id odio provident obcaecati labore at.</p>
         </div>
 
         <div class="questions-accordion__item">
-          <label for="questions-accordion__check-4">Вы предоставляете документы для субсидий?</label>
           <input id="questions-accordion__check-4" type="checkbox">
+          <label for="questions-accordion__check-4">Вы предоставляете документы для субсидий?</label>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum temporibus facere voluptatem eos ex natus, nostrum quae eaque delectus aperiam nesciunt quibusdam necessitatibus id odio provident obcaecati labore at.</p>
         </div>
 
         <div class="questions-accordion__item">
-          <label for="questions-accordion__check-5">Смогу ли я заказать во время праздников?</label>
           <input id="questions-accordion__check-5" type="checkbox">
+          <label for="questions-accordion__check-5">Смогу ли я заказать во время праздников?</label>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum temporibus facere voluptatem eos ex natus, nostrum quae eaque delectus aperiam nesciunt quibusdam necessitatibus id odio provident obcaecati labore at.</p>
         </div>
 
@@ -346,9 +352,10 @@
           <div class="spec-guy">
             <img src="./images/image 1.png" alt="">
             <span>
-              Роман Ш. <br>
-              Старший менеджер
+              <span> Роман Ш.</span>
+              <span>Старший менеджер</span>
             </span>
+
           </div>
         </div>
 
