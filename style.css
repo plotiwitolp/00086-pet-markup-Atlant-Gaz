@@ -697,14 +697,21 @@ h2 {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1px;
   line-height: 22px;
-  color: #f1f1f1;
+  color: #020202;
   padding: 0px 0 16px 62px;
-  display: none;
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 .questions-accordion__item input:checked + label ~ p {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 100px;
   display: block;
+  font-size: 16px;
+  color: #f1f1f1;
 }
 .questions-accordion__item input:checked + label {
   color: #2194ff;
